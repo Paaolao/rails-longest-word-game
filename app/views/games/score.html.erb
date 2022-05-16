@@ -1,0 +1,17 @@
+<h1>********* Welcome to the longest word-game! *********</h1>
+<br>
+<h3>Here is your grid:</h3>
+<p><%= @letters %></p>
+<h3>What is your longest word?</h3>
+
+<h2>******** Now your results ********</h2>
+<p>Your word: <%= @answer %> </p>
+<p>Time Taken to answer: <%=  %></p>
+<p>Your score: <%=  %></p>
+<p>Message: <%=@message%></p>
+
+<%= link_to "Play again", new_path %>
+
+<%#
+The word is valid according to the grid, but is not a valid English word
+The word is valid according to the grid and is an English word %>
